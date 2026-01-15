@@ -31,7 +31,7 @@
 }
 
 .btn-primary {
-  max-width: 180px;
+ 
   font-size: 1.25rem;
   font-weight: 600;
   background-color: #FF900E;
@@ -44,6 +44,7 @@
 
 
 main {
+    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -152,6 +153,49 @@ main>section {
 #quick-list{
   font-weight: 500;
 }
+
+/* features section related disign */
+
+.features{
+  max-width: 1140px;
+  gap: 80px;
+}
+
+#features-section-title{
+  border-left: 5px solid #FF900E;
+  padding-left: 20px;
+}
+.features-title{
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+#experience-badge{
+  padding: 42px 4px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-left: -100px;
+  margin-top: -100px;
+
+}
+#experience-year{
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.feature-card{
+  max-width: 586px;
+ padding: 30px;
+ margin-top: 30px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+.feature-card .feature-title{
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+ 
+}
 /* some fact related design */
 
 .section-title{
@@ -165,6 +209,7 @@ main>section {
 .fact-description{
   max-width: 542px;
   margin-left: 150px;
+  margin-bottom: 50px;
 }
 .fact-container{
  max-width: 1100px;
@@ -209,7 +254,7 @@ main>section {
 }
 
 .sponsors-companies{
-  max-width: 1140px;
+ 
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   justify-content: center;
