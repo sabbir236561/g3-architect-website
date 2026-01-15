@@ -49,7 +49,7 @@ main {
 }
 
 main>section {
-  margin-top: 130px;
+  margin-top: 100px;
 
 }
 
@@ -115,17 +115,25 @@ main>section {
 /* team and features related style*/
 .teams {
   align-items: center;
+  justify-content: center;
 }
 
 .team-image-container {
-  display: grid;
+   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
-
+  margin-left: 220px;
+ 
 }
 
+.team-image-container img{
+   width: 100%;
+ }
+
 .our-features {
-  margin-left: 73px;
+  max-width: 530px;
+  margin-left: 70px;
+
 }
 
 .features-title {
@@ -136,6 +144,7 @@ main>section {
 }
 
 .features-description{
+  max-width: 530px;
   font-size: 1rem;
   margin-bottom: 24px;
 }
@@ -143,6 +152,38 @@ main>section {
 #quick-list{
   font-weight: 500;
 }
+/* some fact related design */
+.fact-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.fact-card{
+  border:1px solid #FF900E;
+  border-radius: 8px;
+  padding-top: 45px;
+  width: 240px;
+  height: 240px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.fact-number{
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.fact-name{
+
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+
+
 
 /*responsive media query design */
 
