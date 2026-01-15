@@ -44,8 +44,7 @@
 
 
 main {
-  max-width: 1440px;
-  margin: 0 auto;
+    margin: 0 auto;
 }
 
 main>section {
@@ -133,6 +132,7 @@ main>section {
 .our-features {
   max-width: 530px;
   margin-left: 70px;
+  margin-right: 90px;
 
 }
 
@@ -153,21 +153,40 @@ main>section {
   font-weight: 500;
 }
 /* some fact related design */
+
+.section-title{
+
+   font-size: 45px;
+  font-weight: 700;
+  margin: 130px 0 24px 150px;
+ 
+
+}
+.fact-description{
+  max-width: 542px;
+  margin-left: 150px;
+}
 .fact-container{
+ max-width: 1100px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+
 }
 
 .fact-card{
+  
   border:1px solid #FF900E;
   border-radius: 8px;
-  padding-top: 45px;
-  width: 240px;
+   width: 240px;
   height: 240px;
   text-align: center;
   align-items: center;
   justify-content: center;
+  margin-right: 0;
+    margin-left: 0;
+  
 }
+
 
 .fact-number{
   font-size: 2.8rem;
@@ -176,11 +195,42 @@ main>section {
   margin-bottom: 10px;
 }
 .fact-name{
-
   font-size: 1.25rem;
-  font-weight: 500;
-  margin-top: 10px;
+  font-weight: 600;
+  
 }
+
+/* sponsors related style */
+
+.our-sponsors{
+  max-width: 540px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.sponsors-companies{
+  max-width: 1140px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.sponsors-companies img{
+  filter: grayscale(100%);
+}
+
+
+footer{
+  max-width: 1100px;
+  text-align: center;
+  background-color: #FFF4E7;
+}
+
+footer .footer-info{
+  padding: 30px;
+}
+
 
 
 
@@ -200,5 +250,4 @@ main>section {
   .banner-image {
     width: 100%;
   }
-
 }
