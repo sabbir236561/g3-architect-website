@@ -160,6 +160,15 @@ main>section {
   max-width: 1140px;
   gap: 80px;
 }
+.card-container{
+  width: 50%;
+}
+.card-container-image{
+  width: 50%;
+}
+.card-container-image img{
+  width: 100%;
+}
 
 #features-section-title{
   border-left: 5px solid #FF900E;
@@ -274,6 +283,7 @@ footer{
 
 footer .footer-info{
   padding: 30px;
+  margin-bottom: 200px;
 }
 
 
